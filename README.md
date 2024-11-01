@@ -1,16 +1,15 @@
 # Eco-Tourism Guide
 
 ## Introduction
-The Eco-Tourism Guide is a Django-based web platform designed to promote sustainable travel. Our platform provides information on eco-friendly travel destinations and activities, featuring a comprehensive directory of accommodations, tours, and conservation projects that prioritize environmental responsibility. Users can browse, review, and book eco-friendly travel options, fostering a community of like-minded travellers committed to reducing their environmental impact.
+The Eco-Tourism Guide is a Django-based web platform designed to promote sustainable travel. Our platform provides information on eco-friendly travel destinations and activities, featuring a comprehensive directory of accommodations, tours, and conservation projects that prioritize environmental responsibility. Users can browse, review, and book eco-friendly travel options, fostering a community of like-minded travelers committed to reducing their environmental impact.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [User Interface](#user-interface)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
 
 ## Features
 1. **User Registration and Login**
@@ -46,6 +45,16 @@ The Eco-Tourism Guide is a Django-based web platform designed to promote sustain
     - Users can upload photos and detailed reviews of their trips.
     - File upload functionality is implemented to allow users to share their travel photos.
 
+## User Interface
+<div style="overflow-x: scroll; white-space: nowrap;">
+    <img src="screenshots/home_1.png" alt="homepage" style="display: inline-block; width: 350;">
+    <img src="screenshots/detail_1.png" alt="hotel details page" style="display: inline-block; width: 350;">
+    <img src="screenshots/home_2.png" alt="homepage" style="display: inline-block; width: 350;">
+    <img src="screenshots/explore_1.png" alt="explore page" style="display: inline-block; width: 350;">
+    <img src="screenshots/detail_2.png" alt="hotel details page" style="display: inline-block; width: 350;">
+    <img src="screenshots/profile.png" alt="user profile page" style="display: inline-block; width: 350;">
+</div>
+
 ## Installation
 1. Clone the repository:
     ```bash
@@ -79,5 +88,3 @@ The Eco-Tourism Guide is a Django-based web platform designed to promote sustain
 ## Configuration
 - Database settings and other configurations can be found in the `settings.py` file.
 - Customize settings such as `DEBUG`, `ALLOWED_HOSTS`, and database configurations as needed.
-
-
